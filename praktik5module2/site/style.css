@@ -1,0 +1,10 @@
+/* Нейтральні стилі для попереднього перегляду. Ваш style.css (задачі 7 і 8) замінює цей файл. */
+body { font-family: Arial, sans-serif; line-height: 1.5; max-width: 960px; margin: 0 auto; padding: 0 16px; }
+img { max-width: 100%; height: auto; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #999; padding: 6px 10px; }
+.field { margin-bottom: 10px; }
+.field label { display: block; }
+.error { color: #b00020; }
+/* Відкрите меню (клас open) виділяється рамкою; кнопку й клас додає скрипт із задачі 9. */
+#site-nav.open { border: 3px solid #d98e04; background-color: #fff3d6; }

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Гурток робототехніки «Іскра»</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Гурток робототехніки «Іскра»</h1>
+    <p class="tagline">Збираємо роботів і програмуємо їх мовою Python</p>
+    <button id="menu-toggle" type="button">Меню</button>
+    <!--SLOT:2-->
+<nav id="site-nav">
+  <ul>
+    <li><a href="#program">Програма</a></li>
+    <li><a href="#projects">Проєкти</a></li>
+    <li><a href="#teachers">Викладачі</a></li>
+    <li><a href="#contact">Зв'язок</a></li>
+  </ul>
+</nav>
+<!--/SLOT:2-->
+  </header>
+  <main id="content">
+    <!--SLOT:3-->
+<article id="program" class="section">
+  <h2>Програма</h2>
+  <p>Перший місяць: схеми, датчики та світлодіоди.</p>
+  <p>Другий місяць: мотори, колеса й керування з Python.</p>
+  <ul class="facts">
+    <li>Конструктор надаємо</li>
+    <li>Групи по вісім учасників</li>
+  </ul>
+</article>
+<article id="projects" class="section">
+  <h2>Проєкти</h2>
+  <p>Робот-прибиральник, метеостанція та світлове піаніно.</p>
+</article>
+<article id="teachers" class="section">
+  <h2>Викладачі</h2>
+  <p>Заняття ведуть інженери-практики й студенти-наставники.</p>
+</article>
+<!--/SLOT:3-->
+    <article id="prices">
+      <h2>Ціни</h2>
+      <!--SLOT:4-->
+<table class="price-table">
+  <caption>Ціни: Гурток робототехніки «Іскра»</caption>
+  <thead>
+    <tr>
+      <th>Назва</th>
+      <th>Примітка</th>
+      <th>Ціна, грн</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Місяць занять</td>
+      <td>8 зустрічей</td>
+      <td class="num">700</td>
+    </tr>
+    <tr>
+      <td>Набір датчиків</td>
+      <td>для дому</td>
+      <td class="num">349,50</td>
+    </tr>
+    <tr>
+      <td>Пробне заняття</td>
+      <td></td>
+      <td class="num">0</td>
+    </tr>
+  </tbody>
+</table>
+<p class="average">Середня ціна: 349,83 грн</p>
+<!--/SLOT:4-->
+    </article>
+    <!--SLOT:5-->
+<article id="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery">
+    <div class="photo">
+      <img src="img/robot.jpg" alt="Колісний робот на столі">
+      <p class="caption">Перший робот</p>
+    </div>
+    <div class="photo">
+      <img src="img/board.jpg" alt="Плата з датчиками та проводами">
+      <p class="caption">Плата</p>
+    </div>
+    <div class="photo">
+      <img src="img/team.jpg" alt="Учасники гуртка біля стенда">
+      <p class="caption">Команда</p>
+    </div>
+    <div class="photo">
+      <img src="img/demo.jpg" alt="Показ проєктів для батьків">
+      <p class="caption">Показ</p>
+    </div>
+  </div>
+</article>
+<!--/SLOT:5-->
+    <!--SLOT:6-->
+<article id="contact">
+  <h2>Зв'язок</h2>
+  <form id="contact-form" action="#" method="post">
+    <div class="field">
+      <label for="f-name">Ім&#x27;я</label>
+      <input type="text" id="f-name" name="name">
+    </div>
+    <div class="field">
+      <label for="f-email">Пошта</label>
+      <input type="email" id="f-email" name="email">
+    </div>
+    <div class="field">
+      <label for="f-message">Що вас цікавить</label>
+      <textarea id="f-message" name="message" rows="4"></textarea>
+    </div>
+    <button type="submit">Надіслати</button>
+    <p id="form-message"></p>
+  </form>
+</article>
+<!--/SLOT:6-->
+    <article id="guests">
+      <h2>Гості</h2>
+      <ul id="guest-list"></ul>
+    </article>
+  </main>
+  <footer>
+    <p>Гурток робототехніки «Іскра». Усі права захищено.</p>
+  </footer>
+</body>
+</html>
