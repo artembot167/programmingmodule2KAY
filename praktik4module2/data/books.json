@@ -1,0 +1,237 @@
+[
+ {
+  "id": 1,
+  "title": "Кобзар",
+  "author": "Тарас Шевченко",
+  "genre": "поезія",
+  "pages": 320,
+  "price": 250,
+  "reviews": [
+   {
+    "user": "олена",
+    "rating": 5
+   },
+   {
+    "user": "ігор",
+    "rating": 4
+   },
+   {
+    "user": "марта",
+    "rating": 5
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "title": "Лісова пісня",
+  "author": "Леся Українка",
+  "genre": "драма",
+  "pages": 140,
+  "price": 180,
+  "reviews": [
+   {
+    "user": "олена",
+    "rating": 5
+   },
+   {
+    "user": "тарас",
+    "rating": 4
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "title": "Захар Беркут",
+  "author": "Іван Франко",
+  "genre": "повість",
+  "pages": 210,
+  "price": 210,
+  "reviews": [
+   {
+    "user": "ігор",
+    "rating": 4
+   },
+   {
+    "user": "марта",
+    "rating": 3
+   },
+   {
+    "user": "софія",
+    "rating": 4
+   },
+   {
+    "user": "тарас",
+    "rating": null
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "title": "Тіні забутих предків",
+  "author": "Михайло Коцюбинський",
+  "genre": "повість",
+  "pages": 96,
+  "price": 120,
+  "reviews": [
+   {
+    "user": "софія",
+    "rating": 5
+   },
+   {
+    "user": "олена",
+    "rating": 5
+   },
+   {
+    "user": "ігор",
+    "rating": 4
+   },
+   {
+    "user": "марта",
+    "rating": 5
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "title": "Intermezzo",
+  "author": "Михайло Коцюбинський",
+  "genre": "новела",
+  "pages": 64,
+  "price": 90,
+  "reviews": [
+   {
+    "user": "тарас",
+    "rating": 3
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "title": "Fata morgana",
+  "author": "Михайло Коцюбинський",
+  "genre": "повість",
+  "pages": 128,
+  "price": 150,
+  "reviews": [
+   {
+    "user": "марта",
+    "rating": 4
+   },
+   {
+    "user": "софія",
+    "rating": 4
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "title": "Contra spem spero",
+  "author": "Леся Українка",
+  "genre": "поезія",
+  "pages": 48,
+  "price": 80,
+  "reviews": []
+ },
+ {
+  "id": 8,
+  "title": "Мойсей",
+  "author": "Іван Франко",
+  "genre": "поема",
+  "pages": 112,
+  "price": 140,
+  "reviews": [
+   {
+    "user": "олена",
+    "rating": 5
+   },
+   {
+    "user": "ігор",
+    "rating": 5
+   },
+   {
+    "user": "тарас",
+    "rating": 4
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "title": "Перехресні стежки",
+  "author": "Іван Франко",
+  "genre": "повість",
+  "pages": 244,
+  "price": 220,
+  "reviews": [
+   {
+    "user": "софія",
+    "rating": 3
+   },
+   {
+    "user": "марта",
+    "rating": 4
+   },
+   {
+    "user": "ігор",
+    "rating": 3
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "title": "Енеїда",
+  "author": "Іван Котляревський",
+  "genre": "поема",
+  "pages": 288,
+  "price": 230,
+  "reviews": [
+   {
+    "user": "тарас",
+    "rating": 5
+   },
+   {
+    "user": "олена",
+    "rating": 4
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "title": "Гайдамаки",
+  "author": "Тарас Шевченко",
+  "genre": "поема",
+  "pages": 160,
+  "price": 170,
+  "reviews": [
+   {
+    "user": "марта",
+    "rating": 5
+   },
+   {
+    "user": "софія",
+    "rating": null
+   },
+   {
+    "user": "ігор",
+    "rating": 4
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "title": "Бояриня",
+  "author": "Леся Українка",
+  "genre": "драма",
+  "pages": 96,
+  "price": 130,
+  "reviews": [
+   {
+    "user": "олена",
+    "rating": 4
+   },
+   {
+    "user": "софія",
+    "rating": 5
+   }
+  ]
+ }
+]

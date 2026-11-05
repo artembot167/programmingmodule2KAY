@@ -1,0 +1,289 @@
+[
+ {
+  "id": 1,
+  "name": "Київ-Центр",
+  "city": "Київ",
+  "altitude": 179,
+  "temp": 8.5,
+  "humidity": 71,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 8.0
+   },
+   {
+    "hour": 6,
+    "temp": 8.5
+   },
+   {
+    "hour": 12,
+    "temp": 9.0
+   },
+   {
+    "hour": 18,
+    "temp": 9.5
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Київ-Лівобережна",
+  "city": "Київ",
+  "altitude": 98,
+  "temp": 9.1,
+  "humidity": 69,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 8.6
+   },
+   {
+    "hour": 6,
+    "temp": 9.1
+   },
+   {
+    "hour": 12,
+    "temp": 9.6
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Київ-Бориспіль",
+  "city": "Київ",
+  "altitude": 108,
+  "temp": 7.9,
+  "humidity": 74,
+  "status": "на обслуговуванні",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 7.5
+   },
+   {
+    "hour": 6,
+    "temp": null
+   },
+   {
+    "hour": 12,
+    "temp": 8.3
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Львів-Центр",
+  "city": "Львів",
+  "altitude": 289,
+  "temp": 6.2,
+  "humidity": 80,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 5.8
+   },
+   {
+    "hour": 6,
+    "temp": 6.2
+   },
+   {
+    "hour": 12,
+    "temp": 6.6
+   },
+   {
+    "hour": 18,
+    "temp": null
+   },
+   {
+    "hour": 24,
+    "temp": 7.0
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Львів-Сихів",
+  "city": "Львів",
+  "altitude": 330,
+  "temp": 5.8,
+  "humidity": 82,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 5.4
+   },
+   {
+    "hour": 6,
+    "temp": 5.8
+   },
+   {
+    "hour": 12,
+    "temp": 6.2
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "Одеса-Порт",
+  "city": "Одеса",
+  "altitude": 25,
+  "temp": 12.4,
+  "humidity": 65,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 11.8
+   },
+   {
+    "hour": 6,
+    "temp": 12.4
+   },
+   {
+    "hour": 12,
+    "temp": 13.0
+   },
+   {
+    "hour": 18,
+    "temp": 13.6
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Одеса-Аеропорт",
+  "city": "Одеса",
+  "altitude": 40,
+  "temp": 11.9,
+  "humidity": 63,
+  "status": "на обслуговуванні",
+  "readings": []
+ },
+ {
+  "id": 8,
+  "name": "Харків-Центр",
+  "city": "Харків",
+  "altitude": 152,
+  "temp": 7.3,
+  "humidity": 70,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 6.9
+   },
+   {
+    "hour": 6,
+    "temp": 7.3
+   },
+   {
+    "hour": 12,
+    "temp": 7.7
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Дніпро-Набережна",
+  "city": "Дніпро",
+  "altitude": 58,
+  "temp": 9.8,
+  "humidity": 66,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 9.2
+   },
+   {
+    "hour": 6,
+    "temp": null
+   },
+   {
+    "hour": 12,
+    "temp": 10.4
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "Ужгород",
+  "city": "Ужгород",
+  "altitude": 120,
+  "temp": 10.1,
+  "humidity": 77,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 9.7
+   },
+   {
+    "hour": 6,
+    "temp": 10.1
+   },
+   {
+    "hour": 12,
+    "temp": 10.5
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Говерла",
+  "city": "Ворохта",
+  "altitude": 1450,
+  "temp": -2.4,
+  "humidity": 90,
+  "status": "активна",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": -3.0
+   },
+   {
+    "hour": 6,
+    "temp": -2.5
+   },
+   {
+    "hour": 12,
+    "temp": -2.0
+   },
+   {
+    "hour": 18,
+    "temp": -2.5
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "Рахів",
+  "city": "Рахів",
+  "altitude": 430,
+  "temp": 4.6,
+  "humidity": 85,
+  "status": "на обслуговуванні",
+  "readings": [
+   {
+    "hour": 0,
+    "temp": 4.2
+   },
+   {
+    "hour": 6,
+    "temp": null
+   },
+   {
+    "hour": 12,
+    "temp": null
+   },
+   {
+    "hour": 18,
+    "temp": 5.0
+   }
+  ]
+ }
+]

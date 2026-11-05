@@ -1,0 +1,225 @@
+[
+ {
+  "id": 1,
+  "number": "К-101",
+  "origin": "Київ",
+  "destination": "Біла Церква",
+  "distance_km": 80,
+  "fare": 120,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Васильків",
+    "minutes": 35
+   },
+   {
+    "name": "Біла Церква",
+    "minutes": 95
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "number": "К-102",
+  "origin": "Київ",
+  "destination": "Житомир",
+  "distance_km": 140,
+  "fare": 160,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Фастів",
+    "minutes": 50
+   },
+   {
+    "name": "Бердичів",
+    "minutes": 110
+   },
+   {
+    "name": "Житомир",
+    "minutes": 150
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "number": "К-103",
+  "origin": "Київ",
+  "destination": "Чернігів",
+  "distance_km": 150,
+  "fare": 170,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Бровари",
+    "minutes": 30
+   },
+   {
+    "name": "Чернігів",
+    "minutes": 135
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "number": "Л-201",
+  "origin": "Львів",
+  "destination": "Івано-Франківськ",
+  "distance_km": 135,
+  "fare": 150,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Рогатин",
+    "minutes": null
+   },
+   {
+    "name": "Івано-Франківськ",
+    "minutes": 150
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "number": "Л-202",
+  "origin": "Львів",
+  "destination": "Ужгород",
+  "distance_km": 270,
+  "fare": 280,
+  "kind": "потяг",
+  "stops": [
+   {
+    "name": "Стрий",
+    "minutes": 60
+   },
+   {
+    "name": "Мукачево",
+    "minutes": 230
+   },
+   {
+    "name": "Ужгород",
+    "minutes": 255
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "number": "О-301",
+  "origin": "Одеса",
+  "destination": "Миколаїв",
+  "distance_km": 130,
+  "fare": 140,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Миколаїв",
+    "minutes": 120
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "number": "О-302",
+  "origin": "Одеса",
+  "destination": "Київ",
+  "distance_km": 480,
+  "fare": 520,
+  "kind": "потяг",
+  "stops": [
+   {
+    "name": "Вінниця",
+    "minutes": 270
+   },
+   {
+    "name": "Фастів",
+    "minutes": 420
+   },
+   {
+    "name": "Київ",
+    "minutes": 480
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "number": "Х-401",
+  "origin": "Харків",
+  "destination": "Полтава",
+  "distance_km": 145,
+  "fare": 130,
+  "kind": "потяг",
+  "stops": [
+   {
+    "name": "Полтава",
+    "minutes": 110
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "number": "Х-402",
+  "origin": "Харків",
+  "destination": "Суми",
+  "distance_km": 180,
+  "fare": 190,
+  "kind": "автобус",
+  "stops": [
+   {
+    "name": "Богодухів",
+    "minutes": 40
+   },
+   {
+    "name": "Суми",
+    "minutes": 170
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "number": "Д-501",
+  "origin": "Дніпро",
+  "destination": "Запоріжжя",
+  "distance_km": 85,
+  "fare": 110,
+  "kind": "потяг",
+  "stops": [
+   {
+    "name": "Запоріжжя",
+    "minutes": 75
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "number": "Д-502",
+  "origin": "Дніпро",
+  "destination": "Київ",
+  "distance_km": 480,
+  "fare": 500,
+  "kind": "потяг",
+  "stops": [
+   {
+    "name": "Кременчук",
+    "minutes": 150
+   },
+   {
+    "name": "Золотоноша",
+    "minutes": 300
+   },
+   {
+    "name": "Київ",
+    "minutes": 450
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "number": "К-104",
+  "origin": "Київ",
+  "destination": "Вінниця",
+  "distance_km": 260,
+  "fare": 250,
+  "kind": "потяг",
+  "stops": []
+ }
+]
