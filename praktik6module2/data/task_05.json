@@ -1,0 +1,131 @@
+{
+ "S1": {
+  "label": "результати тестування",
+  "cfg": {
+   "resource": "scores",
+   "title": "Результати тестування",
+   "value_label": "Результат, %",
+   "report_url": "/scores/top?n=3"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "Іваненко",
+    "group": "Група А",
+    "value": 78.0
+   },
+   {
+    "id": 2,
+    "name": "Петренко",
+    "group": "Група Б",
+    "value": 91.5
+   },
+   {
+    "id": 3,
+    "name": "Сидоренко",
+    "group": "Група А",
+    "value": 85.0
+   },
+   {
+    "id": 4,
+    "name": "Коваль",
+    "group": "Група Б",
+    "value": 85.0
+   },
+   {
+    "id": 5,
+    "name": "Мельник",
+    "group": "Група А",
+    "value": 62.0
+   },
+   {
+    "id": 6,
+    "name": "Шевчук",
+    "group": "Група Б",
+    "value": 70.5
+   }
+  ]
+ },
+ "S2": {
+  "label": "маршрути",
+  "cfg": {
+   "resource": "routes",
+   "title": "Маршрути за довжиною",
+   "value_label": "Довжина, км",
+   "report_url": "/routes/top?n=4&order=asc&group=приміські"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "Київ-Фастів",
+    "group": "приміські",
+    "value": 65.0
+   },
+   {
+    "id": 2,
+    "name": "Київ-Ніжин",
+    "group": "приміські",
+    "value": 130.0
+   },
+   {
+    "id": 3,
+    "name": "Київ-Львів",
+    "group": "міжміські",
+    "value": 540.0
+   },
+   {
+    "id": 4,
+    "name": "Київ-Біла Церква",
+    "group": "приміські",
+    "value": 82.0
+   },
+   {
+    "id": 5,
+    "name": "Київ-Яготин",
+    "group": "приміські",
+    "value": 90.0
+   },
+   {
+    "id": 6,
+    "name": "Київ-Одеса",
+    "group": "міжміські",
+    "value": 475.0
+   },
+   {
+    "id": 7,
+    "name": "Київ-Бровари",
+    "group": "приміські",
+    "value": 25.0
+   }
+  ]
+ },
+ "S3": {
+  "label": "оцінки сервісів",
+  "cfg": {
+   "resource": "ratings",
+   "title": "Оцінки сервісу",
+   "value_label": "Оцінка",
+   "report_url": "/ratings/top?n=10"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "Сервіс A",
+    "group": "web",
+    "value": 4.5
+   },
+   {
+    "id": 2,
+    "name": "Сервіс B",
+    "group": "web",
+    "value": 3.8
+   },
+   {
+    "id": 3,
+    "name": "Сервіс C",
+    "group": "mobile",
+    "value": 4.9
+   }
+  ]
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "S1": {
+  "label": "витрати за тиждень",
+  "cfg": {
+   "resource": "expenses",
+   "title": "Накопичені витрати",
+   "value_label": "тис. грн",
+   "page_size": 3
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "w1",
+    "group": "витрати",
+    "value": 5
+   },
+   {
+    "id": 2,
+    "name": "w2",
+    "group": "витрати",
+    "value": 3
+   },
+   {
+    "id": 3,
+    "name": "w3",
+    "group": "витрати",
+    "value": 8
+   },
+   {
+    "id": 4,
+    "name": "w4",
+    "group": "витрати",
+    "value": 2
+   },
+   {
+    "id": 5,
+    "name": "w5",
+    "group": "витрати",
+    "value": 6
+   },
+   {
+    "id": 6,
+    "name": "w6",
+    "group": "витрати",
+    "value": 4
+   },
+   {
+    "id": 7,
+    "name": "w7",
+    "group": "витрати",
+    "value": 7
+   },
+   {
+    "id": 8,
+    "name": "w8",
+    "group": "витрати",
+    "value": 1
+   }
+  ]
+ },
+ "S2": {
+  "label": "обсяг замовлень",
+  "cfg": {
+   "resource": "orders",
+   "title": "Накопичений обсяг замовлень",
+   "value_label": "тис. шт.",
+   "page_size": 4
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "o1",
+    "group": "замовлення",
+    "value": 2.5
+   },
+   {
+    "id": 2,
+    "name": "o2",
+    "group": "замовлення",
+    "value": 1.5
+   },
+   {
+    "id": 3,
+    "name": "o3",
+    "group": "замовлення",
+    "value": 4
+   },
+   {
+    "id": 4,
+    "name": "o4",
+    "group": "замовлення",
+    "value": 3
+   },
+   {
+    "id": 5,
+    "name": "o5",
+    "group": "замовлення",
+    "value": 0.5
+   },
+   {
+    "id": 6,
+    "name": "o6",
+    "group": "замовлення",
+    "value": 2
+   },
+   {
+    "id": 7,
+    "name": "o7",
+    "group": "замовлення",
+    "value": 3.5
+   },
+   {
+    "id": 8,
+    "name": "o8",
+    "group": "замовлення",
+    "value": 1
+   },
+   {
+    "id": 9,
+    "name": "o9",
+    "group": "замовлення",
+    "value": 2
+   }
+  ]
+ },
+ "S3": {
+  "label": "заявки",
+  "cfg": {
+   "resource": "tickets",
+   "title": "Накопичені заявки",
+   "value_label": "шт.",
+   "page_size": 5
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "t1",
+    "group": "заявки",
+    "value": 12
+   },
+   {
+    "id": 2,
+    "name": "t2",
+    "group": "заявки",
+    "value": 8
+   },
+   {
+    "id": 3,
+    "name": "t3",
+    "group": "заявки",
+    "value": 15
+   },
+   {
+    "id": 4,
+    "name": "t4",
+    "group": "заявки",
+    "value": 5
+   },
+   {
+    "id": 5,
+    "name": "t5",
+    "group": "заявки",
+    "value": 10
+   }
+  ]
+ }
+}

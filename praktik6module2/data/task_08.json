@@ -1,0 +1,227 @@
+{
+ "S1": {
+  "label": "відвідуваність корпусів",
+  "cfg": {
+   "resource": "attendance",
+   "title": "Відвідуваність за корпусами",
+   "x_label": "Місяць",
+   "y_label": "Відвідувачів",
+   "period_labels": [
+    "Вер",
+    "Жов",
+    "Лис",
+    "Гру"
+   ],
+   "report_url": "/attendance/lines?names=Центр&names=Північ"
+  },
+  "records": [
+   {
+    "id": 1,
+    "series": "Північ",
+    "period": 1,
+    "value": 100
+   },
+   {
+    "id": 2,
+    "series": "Північ",
+    "period": 2,
+    "value": 120
+   },
+   {
+    "id": 3,
+    "series": "Північ",
+    "period": 3,
+    "value": 90
+   },
+   {
+    "id": 4,
+    "series": "Північ",
+    "period": 4,
+    "value": 110
+   },
+   {
+    "id": 5,
+    "series": "Центр",
+    "period": 1,
+    "value": 80
+   },
+   {
+    "id": 6,
+    "series": "Центр",
+    "period": 3,
+    "value": 85
+   },
+   {
+    "id": 7,
+    "series": "Центр",
+    "period": 4,
+    "value": 95
+   },
+   {
+    "id": 8,
+    "series": "Південь",
+    "period": 2,
+    "value": 70
+   },
+   {
+    "id": 9,
+    "series": "Південь",
+    "period": 2,
+    "value": 5
+   },
+   {
+    "id": 10,
+    "series": "Південь",
+    "period": 4,
+    "value": 60
+   }
+  ]
+ },
+ "S2": {
+  "label": "продажі за регіонами",
+  "cfg": {
+   "resource": "regions",
+   "title": "Продажі за регіонами",
+   "x_label": "Тиждень",
+   "y_label": "Тис. грн",
+   "period_labels": [
+    "Т1",
+    "Т2",
+    "Т3",
+    "Т4",
+    "Т5"
+   ],
+   "report_url": "/regions/lines"
+  },
+  "records": [
+   {
+    "id": 1,
+    "series": "Схід",
+    "period": 1,
+    "value": 10
+   },
+   {
+    "id": 2,
+    "series": "Схід",
+    "period": 2,
+    "value": 12
+   },
+   {
+    "id": 3,
+    "series": "Схід",
+    "period": 3,
+    "value": 15
+   },
+   {
+    "id": 4,
+    "series": "Захід",
+    "period": 1,
+    "value": 7
+   },
+   {
+    "id": 5,
+    "series": "Захід",
+    "period": 2,
+    "value": 9
+   },
+   {
+    "id": 6,
+    "series": "Захід",
+    "period": 5,
+    "value": 11
+   },
+   {
+    "id": 7,
+    "series": "Центр",
+    "period": 3,
+    "value": 20
+   },
+   {
+    "id": 8,
+    "series": "Центр",
+    "period": 4,
+    "value": 22
+   },
+   {
+    "id": 9,
+    "series": "Схід",
+    "period": 5,
+    "value": 17
+   }
+  ]
+ },
+ "S3": {
+  "label": "виконання лабораторних",
+  "cfg": {
+   "resource": "labs",
+   "title": "Виконання лабораторних",
+   "x_label": "Робота",
+   "y_label": "Виконано, шт.",
+   "period_labels": [
+    "П1",
+    "П2",
+    "П3",
+    "П4",
+    "П5",
+    "П6"
+   ],
+   "report_url": "/labs/lines?names=А&names=Б&names=В&names=Г"
+  },
+  "records": [
+   {
+    "id": 1,
+    "series": "А",
+    "period": 2,
+    "value": 5
+   },
+   {
+    "id": 2,
+    "series": "А",
+    "period": 3,
+    "value": 6
+   },
+   {
+    "id": 3,
+    "series": "А",
+    "period": 6,
+    "value": 7
+   },
+   {
+    "id": 4,
+    "series": "Б",
+    "period": 2,
+    "value": 4
+   },
+   {
+    "id": 5,
+    "series": "Б",
+    "period": 6,
+    "value": 9
+   },
+   {
+    "id": 6,
+    "series": "В",
+    "period": 3,
+    "value": 3
+   },
+   {
+    "id": 7,
+    "series": "Г",
+    "period": 2,
+    "value": 2
+   },
+   {
+    "id": 8,
+    "series": "Г",
+    "period": 3,
+    "value": 2
+   },
+   {
+    "id": 9,
+    "series": "Г",
+    "period": 6,
+    "value": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "S1": {
+  "label": "час відповіді сервісу",
+  "cfg": {
+   "resource": "latency",
+   "title": "Розподіл часу відповіді",
+   "value_label": "Час, мс",
+   "report_url": "/latency/histogram?bins=4"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "q1",
+    "group": "api",
+    "value": 12
+   },
+   {
+    "id": 2,
+    "name": "q2",
+    "group": "api",
+    "value": 15
+   },
+   {
+    "id": 3,
+    "name": "q3",
+    "group": "api",
+    "value": 18
+   },
+   {
+    "id": 4,
+    "name": "q4",
+    "group": "api",
+    "value": 22
+   },
+   {
+    "id": 5,
+    "name": "q5",
+    "group": "api",
+    "value": 25
+   },
+   {
+    "id": 6,
+    "name": "q6",
+    "group": "api",
+    "value": 31
+   },
+   {
+    "id": 7,
+    "name": "q7",
+    "group": "api",
+    "value": 38
+   },
+   {
+    "id": 8,
+    "name": "q8",
+    "group": "api",
+    "value": 50
+   }
+  ]
+ },
+ "S2": {
+  "label": "вага посилок",
+  "cfg": {
+   "resource": "parcels",
+   "title": "Розподіл ваги посилок",
+   "value_label": "Вага, кг",
+   "report_url": "/parcels/histogram"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "p1",
+    "group": "посилки",
+    "value": 0.5
+   },
+   {
+    "id": 2,
+    "name": "p2",
+    "group": "посилки",
+    "value": 1.0
+   },
+   {
+    "id": 3,
+    "name": "p3",
+    "group": "посилки",
+    "value": 1.5
+   },
+   {
+    "id": 4,
+    "name": "p4",
+    "group": "посилки",
+    "value": 2.0
+   },
+   {
+    "id": 5,
+    "name": "p5",
+    "group": "посилки",
+    "value": 2.5
+   },
+   {
+    "id": 6,
+    "name": "p6",
+    "group": "посилки",
+    "value": 3.0
+   },
+   {
+    "id": 7,
+    "name": "p7",
+    "group": "посилки",
+    "value": 4.0
+   },
+   {
+    "id": 8,
+    "name": "p8",
+    "group": "посилки",
+    "value": 5.5
+   },
+   {
+    "id": 9,
+    "name": "p9",
+    "group": "посилки",
+    "value": 6.0
+   },
+   {
+    "id": 10,
+    "name": "p10",
+    "group": "посилки",
+    "value": 10.5
+   }
+  ]
+ },
+ "S3": {
+  "label": "результати тесту за днем",
+  "cfg": {
+   "resource": "marks",
+   "title": "Результати тесту",
+   "value_label": "Результат, %",
+   "report_url": "/marks/histogram?group=Пн&bins=3"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "s1",
+    "group": "Пн",
+    "value": 40
+   },
+   {
+    "id": 2,
+    "name": "s2",
+    "group": "Пн",
+    "value": 55
+   },
+   {
+    "id": 3,
+    "name": "s3",
+    "group": "Вт",
+    "value": 90
+   },
+   {
+    "id": 4,
+    "name": "s4",
+    "group": "Пн",
+    "value": 70
+   },
+   {
+    "id": 5,
+    "name": "s5",
+    "group": "Пн",
+    "value": 100
+   },
+   {
+    "id": 6,
+    "name": "s6",
+    "group": "Вт",
+    "value": 20
+   },
+   {
+    "id": 7,
+    "name": "s7",
+    "group": "Пн",
+    "value": 85
+   }
+  ]
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "S1": {
+  "label": "підрозділи",
+  "cfg": {
+   "resource": "units",
+   "title": "Показники підрозділів",
+   "value_label": "Тис. грн",
+   "report_url": "/units/dashboard?min_value=30"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "n1",
+    "group": "Склад",
+    "value": 40.0
+   },
+   {
+    "id": 2,
+    "name": "n2",
+    "group": "Офіс",
+    "value": 25.5
+   },
+   {
+    "id": 3,
+    "name": "n3",
+    "group": "Склад",
+    "value": 35.0
+   },
+   {
+    "id": 4,
+    "name": "n4",
+    "group": "Цех",
+    "value": 90.0
+   },
+   {
+    "id": 5,
+    "name": "n5",
+    "group": "Офіс",
+    "value": 30.0
+   },
+   {
+    "id": 6,
+    "name": "n6",
+    "group": "Цех",
+    "value": 10.0
+   }
+  ]
+ },
+ "S2": {
+  "label": "сервери",
+  "cfg": {
+   "resource": "servers",
+   "title": "Навантаження серверів",
+   "value_label": "Запитів/с",
+   "report_url": "/servers/dashboard"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "s1",
+    "group": "Київ",
+    "value": 5
+   },
+   {
+    "id": 2,
+    "name": "s2",
+    "group": "Львів",
+    "value": 5
+   },
+   {
+    "id": 3,
+    "name": "s3",
+    "group": "Київ",
+    "value": 3
+   },
+   {
+    "id": 4,
+    "name": "s4",
+    "group": "Львів",
+    "value": 3
+   },
+   {
+    "id": 5,
+    "name": "s5",
+    "group": "Одеса",
+    "value": 4
+   }
+  ]
+ },
+ "S3": {
+  "label": "приміщення",
+  "cfg": {
+   "resource": "rooms",
+   "title": "Завантаженість приміщень",
+   "value_label": "Людей",
+   "report_url": "/rooms/dashboard?min_value=100"
+  },
+  "records": [
+   {
+    "id": 1,
+    "name": "k1",
+    "group": "Поверх 1",
+    "value": 20
+   },
+   {
+    "id": 2,
+    "name": "k2",
+    "group": "Поверх 2",
+    "value": 35.5
+   }
+  ]
+ }
+}
